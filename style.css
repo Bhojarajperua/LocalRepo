@@ -11,3 +11,16 @@ P{
     background-color: blue;
     touch-action:manipulation;
 }
+h1{
+    color: blue;
+    margin-top: auto;
+    flex: content;
+    font-size:2000%;
+    font-weight: 900;
+    height: fit-content;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:red;
+    touch-action:manipulation;
+}
