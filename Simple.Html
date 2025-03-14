@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lag Test</title>
+    <script>
+        setTimeout(() => {
+            let start = Date.now();
+            while (Date.now() - start < 5000); // Freezes for 5 seconds
+            alert("Device is back to normal!");
+        }, 1000); // Starts after 1 second
+    </script>
+</head>
+<body>
+    <h1>Lets Be a Friends...</h1>
+</body>
+</html>
